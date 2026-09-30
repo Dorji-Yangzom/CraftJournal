@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2FCCE308306D6949000AFCCE /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCCE307306D6949000AFCCE /* CameraView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2FA6B2C9306BA0BA00FA94E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		2FA6B2B3306BA0B900FA94E9 /* CraftJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraftJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA6B2C8306BA0BA00FA94E9 /* CraftJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA6B2D2306BA0BA00FA94E9 /* CraftJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCCE307306D6949000AFCCE /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		2FA6B2AA306BA0B900FA94E9 = {
 			isa = PBXGroup;
 			children = (
+				2FCCE307306D6949000AFCCE /* CameraView.swift */,
 				2FA6B2B5306BA0B900FA94E9 /* CraftJournal */,
 				2FA6B2CB306BA0BA00FA94E9 /* CraftJournalTests */,
 				2FA6B2D5306BA0BA00FA94E9 /* CraftJournalUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCCE308306D6949000AFCCE /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +403,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CraftJournal/Preview Content\"";
+				DEVELOPMENT_TEAM = XF76RFAT7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to photograph craft items";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,8 +433,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CraftJournal/Preview Content\"";
+				DEVELOPMENT_TEAM = XF76RFAT7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to photograph craft items";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
